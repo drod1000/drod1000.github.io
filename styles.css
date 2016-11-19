@@ -1,7 +1,19 @@
-body,
-h1{
-  font-family: sans-serif;
+body{
+  background-color: #000000;
+  color: #F5F5F5;
+}
+header{
+  text-align: center;
+  font-family: 'Lucida Console', monospace;
+  font-size: 25px;
+  border-top: 2px double;
+  border-right: 2px double;
+  border-bottom: 2px double ;
+  border-left: 2px double;
 }
 p {
+  font-family: 'Lucida Console', monospace;
+}
+div{
   font-family: 'Lucida Console', monospace;
 }
