@@ -1,19 +1,29 @@
 body{
-  background-color: #000000;
-  color: #F5F5F5;
+  background-color: #808080;
+  color: black;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 header{
   text-align: center;
-  font-family: 'Lucida Console', monospace;
   font-size: 25px;
   border-top: 2px double;
   border-right: 2px double;
   border-bottom: 2px double ;
   border-left: 2px double;
+  background-color: #2F4F4F;
+  color: white;
 }
-p {
-  font-family: 'Lucida Console', monospace;
+p{
+  color: white;
 }
 div{
-  font-family: 'Lucida Console', monospace;
+  text-align: left;
+}
+section{
+  float: left;
+}
+img{
+  float: right;
+  width: 25%;
+  margin-right: 100px;
 }
