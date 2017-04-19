@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Daniel's Blog</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Theme CSS -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about-me.html">About Me</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/dark-black.jpg')">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="site-heading">
+              <h1>First Open Source Contribution</h1>
+              <hr class="small">
+              <span class="subheading">Let's Do This!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p>For my first open source contribution, I chose to work on a project completed by students from the front end program a module ago. While I was familiar with the app from using it as a student at Turing, I had no idea what the codebase looked like.</p>
+
+                    <p>The first step in making an open source contribution is to fork the repo and get it running locally on your machine. This sounds simple enough but it proved to be a challenge this time. I tried to troubleshoot this myself, but when that didn’t get me anywhere I chose the next best thing. I looked through the repo to determine whether there might be another person who was working on this to see if they had run into the same issue. An instructor at the school kept popping up so I reached out to her. She told me that she had been stumped on this for a couple of days but walked me through the steps she took to get it running. Moving on!</p>
+
+                    <p>The next thing on the agenda was to familiarize myself with the codebase so that I could understand the app a little better. The first thing that caught my attention was the fact that this codebase had a React front-end. I’ve dabbled with React on one of my other projects but by no means am I an expert in it. It took me a little while to get a hang of how the data was flowing through the application but once I got settled in it was time to pick an issue to take care of.</p>
+
+                    <p>The cool thing about open source projects is that developers can create issues for features that they need help with or don’t have the time to do themselves. I picked up an issue with the label help wanted that I thought I could figure out and started planning my approach to the problem.</p>
+
+                    <p>My task was to write some regex to check whether the link provided was a valid url before saving it to the database. In this case, I had to prepend http:// to the link if the user had forgotten to do it themselves. The implementation itself was not that difficult but I had to make sure that I didn’t break anything in the process and that I adhered to the naming conventions that they had been using. I made sure to add a couple of tests to illustrate how the code is supposed to work and just like that I was ready to make my first pull request to an open source project.</p>
+
+                    <p>Creating the pull request was the most nerve-wracking part of the entire process. It’s your first interaction with the developers working on the codebase and you have to be ready to explain your thought process and your implementation. I made sure to double check everything and then proceeded to create what I hope is the first or many pull requests open source projects.</p>
+
+                    <p>As of today, I’m still waiting to hear back but I’ll make sure to give an update once they get back to me!</p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline text-center">
+              <li>
+                <a href="https://github.com/drod1000">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/daniel-rodriguez-00">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
